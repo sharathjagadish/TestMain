@@ -5,7 +5,7 @@
 # and make sure it is executable.
 # The name of the file *must* be "prepare-commit-msg" for Git to pick it up.
 
-FORBIDDEN_BRANCHES = ["main"]
+FORBIDDEN_BRANCHES = "main"
 
 def merge?
   ARGV[1] == "merge"
